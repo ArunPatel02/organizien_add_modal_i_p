@@ -1,0 +1,232 @@
+@media (max-width:1200px){
+.theme-content:not(.topmenu) aside.console-sidemenu {
+position: absolute;
+z-index: 1000;
+height: 100%;
+min-width: 250px;
+overflow: auto;
+top: 0;
+}
+}
+
+
+@media (max-width:980px){
+.custom-header-links { display: none }
+.header-left > div ~ div { margin-left: 10px }
+form.console-search > button { border: 1px solid #d8d8d8; border-radius: 5px; width: 34px; height: 34px; pointer-events: none; z-index: 1; }
+form.console-search > input { position: absolute; right: 0; background: #fff; top: 0; height: 100%; width: 0; opacity: 0; visibility: hidden; border: 1px solid #d8d8d8; border-radius: 4px; padding: 0; transition: all 0.3s}
+form.console-search { border: 0; width: auto; margin: 0 9px 0 0 }
+form.console-search:hover input { opacity: 1; visibility: visible; width: 115px; padding: 0 40px 0 10px }
+form.console-search:hover > button { border: 0 }
+a.login-user { margin-left: 0 }
+aside.more-opt-panel { width: 310px; margin-left: -310px }
+aside.more-opt-panel.active { margin: 0 }
+.console-dashboard-title { flex-direction: column }
+.dashboard-title-more { flex-direction: column; margin-top: 20px; margin-bottom: 0px }
+.dash-info strong { display: flex; text-align: center; width: 100%; display: table }
+.dash-info ~ .dash-info { margin-left: 5px; padding-left: 0 }
+.dash-info-block { margin-bottom: 20px}
+.console-dashboard-title > div { text-align: center}
+.dash-info { text-align: center }
+.theme-content.narrow-menu aside.console-sidemenu { min-width: 130px; overflow: unset }
+.filter-form .row > div{ margin-bottom: 10px }
+.filteration-text{ flex-direction: column; align-items: flex-start }
+.filteration-text > * ~ *{ margin: 10px 0 0 }
+}
+
+
+@media (max-width:767px){
+.media { flex-direction: column}
+.theme-media.style2 .media-body { align-items: start; align-self: start; flex-direction: column; margin-top: 10px }
+.action-icons { margin: 10px 0 0; align-self: start }
+.dt-bottom{ flex-direction: column }
+.dt-information { flex-direction: column; margin: 10px 0 }
+.dataTables_info { margin: 10px 0 0 }
+.get_dt_search{ width: 100%; margin-top: 10px }
+.console-panel div.ColVis { width: 100%; margin: 5px 0 0!important }
+.console-panel button.ColVis_Button, .console-panel button.ColVis_Button:hover{ width: 100% }
+.get_dt_search input { width: 100% }
+.simple-breadcrumbs-bar{ flex-direction: column }
+.breadcrumb-bar { margin: 15px 0 20px; padding: 0 }
+.breadcrumb-bar:before { display: none }
+.secondary-menu .btn.btn-icon { margin: 0 5px }
+.console-filters { position: absolute; left: 0; top: 0; width: 230px; height: 100% }
+.console-filters.slideOut { margin-left: -230px }
+.mytab.theme1 .nav li{ width: 100%; flex: 0 0 100%; margin: 5px 0 5px }
+.mytab.theme1 .nav li a { margin: 0 }
+.mytab.theme2 {flex-direction: column;}
+.mytab.theme3 { flex-direction: column }
+.mytab.theme4 .nav li { width: 100%; flex: 0 0 100% }
+.mytab.theme4 .nav li a {margin: 0;}
+.console-panel-body-noscroll .row {
+    margin: 0!important;
+}
+.console-panel-body-noscroll .row > div {
+    padding: 0!important;
+}
+.form-group.row {
+    flex-direction: column;
+}
+
+.col-form-label {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.form-group.row > * {
+    width: 100%!important;
+    flex: 0 0 100%!important;
+    max-width: none;
+}
+div#wrap {
+}
+
+#external-events {
+    position: absolute;
+    min-width: 0;
+    margin: 0 0 20px;
+    z-index: 10;
+    left: -230px;
+    top: 0;
+    width: 230px;
+    height: 100%;
+    transition: all 0.3s;
+}
+.fc-toolbar.fc-header-toolbar {
+    flex-direction: column;
+}
+#external-events:before {content: "\f105";font-size: 20px;font-family: fontAwesome;position: absolute;right: -30px;height: 30px;width: 30px;top: 0;background: #2c3e50;text-align: center;color: #FFF;line-height: 1.4;}
+
+#external-events:hover {
+    left: 0;
+}
+.content-area {
+    padding: 5px;
+}
+.smart-timeline-list li {
+    display: flex;
+    flex-direction: column;
+}
+
+.smart-timeline-icon {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.smart-timeline-content {
+    margin: 0;
+}
+
+.smart-timeline-time {
+    text-align: left;
+}
+.chat-app {flex-direction: column;}
+
+ul.chat-list {
+    max-height: 200px;
+}
+
+.chat-message ul {
+    height: 200px;
+}
+
+.type-message {
+    flex-direction: column;
+}
+.chat-app .message {
+    float: none;
+    max-width: none;
+    /* flex-direction: row-reverse; */
+    width: 100%;
+}
+.type-message textarea {
+    width: 100%;
+    margin: 0 0 10px;
+}
+.console-login {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+}
+
+.login-intro {
+    flex-basis: unset;
+}
+
+.login-intro > * ~ * {
+    margin-top: 10px;
+}
+
+.login-form {
+    padding: 20px;
+}
+.user-info {flex-direction: column;padding: 0;align-items: center;justify-content: center;}
+
+.user-img {
+    /* min-width: 230px; */
+    /* min-height: 230px; */
+}
+.user-profile {
+    float: none;
+    width: auto;
+}
+
+.info-details {
+    padding-left: 0;
+}
+
+.user-connections {
+    padding: 0;
+}
+
+.followers {
+    flex-wrap: wrap;
+    width: auto;
+}
+.cover {
+    margin: 0 0 0;
+    width: 100%;
+    height: auto;
+    min-height: 140px;
+}
+
+.cover .button-set {
+    top: 20px;
+    bottom: auto;
+}
+.timeline {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-timeline {
+    position: relative;
+    margin: 0 0 10px 10px;
+}
+
+.timeline-sec ul {
+    list-style: none;
+}
+.mail-system {
+    flex-direction: column;
+}
+.theme-content:not(.topmenu) aside.console-sidemenu.active ~ .content-area {
+    opacity: 0.5;
+}
+}
+
+
+
+@media (max-width:480px){
+.dash-info-block {flex-direction: column;}
+.dash-info ~ .dash-info { margin-left: 0; margin-top: 10px; text-align: center }
+header {flex-direction: column;height: auto;padding: 0;}
+.header-left { width: 100%; margin: 10px 0 }
+.sidemenu-opener { order: 1; margin-left: 0; margin-right: 20px }
+.logo { order: 2; flex: auto; display: flex }
+.header-right { width: 100%; justify-content: center; background: #eaeef5; padding: 6px 0 }
+form.console-search { order: 6; margin-left: auto; z-index: 10; position: relative; background: #fff }
+header .top-header-btns .dropdown .dropdown-menu { width: 100vw; position: fixed!important; right: 0!important; transform: none!important; left: auto!important; top: 100px!important; border-radius: 0 }
+}

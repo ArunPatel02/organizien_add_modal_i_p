@@ -1,0 +1,178 @@
+@import url("https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css");
+
+/* ===  DataTable ===*/
+.get_dt_search input {
+    font-size: 11px;
+    min-width: 190px;
+    background: #efeff5;
+    border-color: #dedee3;
+    color: #767c92;
+    font-weight: 500;
+    height: 30px;
+    border: 1px solid #dedee3;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+.get_dt_search input:focus {
+    border-color: #dedee3;
+    box-shadow: none;
+}
+table.dataTable thead th select {
+    position: absolute;
+    width: 50%;
+    border: 0;
+    height: 100%;
+    opacity: 0;
+    margin-top: 0;
+    left: 0;
+    top: 0;
+}
+.console-panel div.ColVis{margin:0}
+.console-panel button.ColVis_Button,
+.console-panel button.ColVis_Button:hover{
+    box-shadow: none;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #6c757d!important;
+    background: #efeff5!important;
+    min-width: 200px;
+    text-align: left;
+    border-color: #dedee3;
+}
+.console-panel button.ColVis_Button:before {content: "\f0d7";font-family: 'Font Awesome 5 Free';position: absolute;right: 0;top: 0;height: 100%;line-height: 30px;width: 30px;font-weight: 600;text-align: center;}
+body ul.ColVis_collection {
+    width: 201px;
+    max-height: 400px;
+    padding: 0;
+    overflow: auto;
+    background: #FFF;
+    border-radius: 0 0 4px 4px;
+    border: 0;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2)!important;
+}
+body ul.ColVis_collection li,body ul.ColVis_collection li:hover {
+    margin: 0;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+}
+
+body ul.ColVis_collection li label {
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 12px;
+    width: 100%;
+}
+body ul.ColVis_collection li.ColVis_Special,body ul.ColVis_collection li.ColVis_Special:hover {
+    background: #efeff5;
+    padding: 7px 12px;
+    color: #000000!important;
+    font-size: 12px;
+    border-radius: 0;
+}
+.table-container thead th.filterhead{
+    padding: 0!important;
+    border:0;
+}
+.filterhead.hidden{display:none}
+.filterhead button.multiselect.dropdown-toggle.btn.btn-default {
+    padding: 2px 5px;
+    font-size: 11px;
+    border: 0;
+    font-weight: 500;
+    color: #8e8e8e;
+    max-width: 100%;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: none!important;
+    text-overflow: ellipsis;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.filterhead button.multiselect .multiselect-selected-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dt-bottom-container {
+    width: 100%;
+    font-size: 12px;
+}
+
+.filterhead .SumoSelect {
+    width: 100%;
+}
+
+.filterhead .SumoSelect>.CaptionCont {
+    border: 0;
+    background: rgba(0, 0, 0, 0.04);
+    box-shadow: none!important;
+    border-radius: 0;
+}
+
+.filterhead .SumoSelect>.CaptionCont>span.placeholder {
+    font-style: normal;
+    color: #98a2bd;
+    opacity: 0.6;
+}
+
+.filterhead .SumoSelect.open .search-txt {
+    border-radius: 0;
+    padding: 7px 8px;
+}
+
+.filterhead .SumoSelect>.optWrapper>.options li label {
+    font-weight: 400;
+}
+
+.filterhead .SumoSelect>.optWrapper {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-top: 0;
+}
+
+.filterhead .SumoSelect>.optWrapper>.options {
+    max-height: 265px;
+}
+.dt-bottom {
+    display: flex;
+    align-items: center;
+}
+.dt-information {
+    display: flex;
+    color: #424242;
+    align-items: center;
+}
+.dt-pagination{margin-left: auto}
+.dataTables_info {margin-left: 5px}
+.dataTables_paginate {
+    background: #FFF;
+    padding: 2px 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+
+.dataTables_paginate a {
+    padding: 2px 4px;
+    font-size: 14px;
+    border-radius: 20px;
+    margin: 0 1px;
+    display: inline-block;
+    transition: all 0.3s;
+    background: none;
+    text-align: center;
+    min-width: 27px;
+   cursor: pointer;
+}
+
+.dataTables_paginate a.current {
+    background: #567ae9;
+    color: #FFF;
+}
+.dataTables_paginate span {
+    margin: 0 10px;
+}

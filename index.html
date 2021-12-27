@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+   <meta http-equiv="Content-Type" content=" charset=utf-8" />
+   <title>Repare this Web</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="" />
+   <meta name="keywords" content="" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+   <!-- Styles -->
+   <!----------------------- bootstrap css ---------------- -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!----------------------- grid stack css ---------------- -->
+   <link rel="stylesheet" href="css/grid_stack.min.css" />
+
+
+
+   <!-------------------------- this plugin here  ------------------>
+   <link rel="stylesheet" href="js/plugins/jquery_confirm/jquery_confirm.css">
+
+   <link rel="stylesheet" href="js/plugins/colorpicker/bootstrap-colorpicker-plus.min.css">
+
+   <link rel="stylesheet" type="text/css" href="css/dripicon.css" />
+
+
+
+
+   <!--------------------------- custome css  -------------------->
+   <link rel="stylesheet" type="text/css" href="css/home.css" />
+   <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="./css//index.css">
+
+
+
+   <!---------------------------- google font Poppins ----------------->
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+
+   <!-------------------- end head -------------->
+</head>
+
+<body class="theme-body">
+   <div class="theme-wrapper">
+      <header>
+         <div class="header-left">
+            <div class="logo"><a href="index.html">
+                  <img id="logo_img" src="images/cmitlogo.png" alt="">
+               </a>
+            </div>
+            <!-- Logo -->
+         </div>
+         <!-- Header Left -->
+         <div class="header-right">
+            <form class="console-search1">
+               <div data-toggle="dropdown" style="width: 100%;"
+                  class=" px-1 d-flex justify-content-between align-items-center">
+                  <strong>Select Option</strong><i class="fas fa-sort-down"></i>
+               </div>
+               <div class="dropdown-menu dropdown Option__head dropdown-menu-right">
+                  <a id="project____" class="dropdown-item" href="#">
+                     <ion-icon ios="ios-contact" md="md-contact"></ion-icon>
+                     Project
+                  </a>
+
+                  <a class="dropdown-item" href="#">
+                     <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                     1. CMIT Solution
+                  </a>
+
+                  <a class="dropdown-item" href="#">
+                     <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                     2. Oranizien
+                  </a>
+                  <div class="text-center mb-2 add__more__btn">
+                     <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Add More
+                        Project</button>
+
+
+
+
+                  </div>
+               </div>
+
+
+            </form>
+            <ul class="top-header-btns">
+               <li class="dropdown">
+                  <a href="#" title="" data-toggle="dropdown"> <i class="icon dripicons-message"></i></a>
+                  <div class="dropdown-menu  dropdown-menu-right theme-media">
+                     <div class="dropdown-menu-header">
+                        <div class="dmh-inner">
+                           <h4>Messages</h4>
+                           <span>You have 2 unread messages</span>
+                        </div>
+                        <a class="settings-btn" href="#" title="">
+                           <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                        </a>
+                     </div>
+                     <div class="media unread">
+                        <img class="mr-3 circle-img" src="images/img1.jpg" alt=" ">
+                        <div class="media-body">
+                           <span>Mar 15 12:32pm</span>
+                           <p>Congratulate <strong>Socrates Itumay</strong> for work anniversaries</p>
+                        </div>
+                     </div>
+                     <div class="media unread">
+                        <img class="mr-3 circle-img" src="images/img1.jpg" alt=" ">
+                        <div class="media-body">
+                           <span>Mar 13 04:16am</span>
+                           <p><strong>Joyce Chua</strong> just created a new blog post</p>
+                        </div>
+                     </div>
+                     <div class="media">
+                        <img class="mr-3 circle-img" src="images/img1.jpg" alt=" ">
+                        <div class="media-body">
+                           <span>Mar 13 02:56am</span>
+                           <p><strong>Althea Cabardo</strong> just created a new blog post</p>
+                        </div>
+                     </div>
+                     <div class="media">
+                        <img class="mr-3 circle-img" src="images/img1.jpg" alt=" ">
+                        <div class="media-body">
+                           <span>Mar 12 10:40pm</span>
+                           <p><strong>Adrian Monino</strong> added new comment on your photo</p>
+                        </div>
+                     </div>
+                     <div class="dropdown-menu-footer">
+                        <a href="#" title="">See All Messages</a>
+                     </div>
+                  </div>
+               </li>
+               <li class="dropdown">
+                  <a href="#" title="" data-toggle="dropdown"><i class="icon dripicons-bell"></i> <span>9+</span></a>
+                  <div class="dropdown-menu  dropdown-menu-right">
+                     <div class="dropdown-menu-header">
+                        <div class="dmh-inner">
+                           <h4>Notifications</h4>
+                           <span>You have 2 unread notifications</span>
+                        </div>
+                        <a class="settings-btn" href="#" title="">
+                           <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                        </a>
+                     </div>
+                     <div class="timeline ">
+                        <div class="timeline-list">
+                           <div class="timeline-info">
+                              <div class="d-inline-block">Server pending</div>
+                              <small class="float-right text-muted">Now</small>
+                           </div>
+                        </div>
+                        <div class="timeline-list  timeline-primary">
+                           <div class="timeline-info">
+                              <div class="d-inline-block">Delivery complete</div>
+                              <small class="float-right text-muted">10min.</small>
+                           </div>
+                        </div>
+                        <div class="timeline-list  timeline-accent">
+                           <div class="timeline-info">
+                              <div class="d-inline-block">Delivery processing</div>
+                              <small class="float-right text-muted">1hr.</small>
+                           </div>
+                        </div>
+                        <div class="timeline-list timeline-success">
+                           <div class="timeline-info">
+                              <div class="d-inline-block">Payment recorded</div>
+                              <small class="float-right text-muted">11:22am</small>
+                           </div>
+                        </div>
+                        <div class="timeline-list timeline-warning">
+                           <div class="timeline-info">
+                              <div class="d-inline-block">Order complete</div>
+                              <small class="float-right text-muted">9:30AM</small>
+                           </div>
+                        </div>
+                        <div class="timeline-list timeline-info">
+                           <div class="timeline-info">
+                              <div class="d-inline-block">Product quantities updated</div>
+                              <small class="float-right text-muted">9:27am</small>
+                           </div>
+                        </div>
+                        <div class="timeline-list timeline-info">
+                           <div class="timeline-info">
+                              <div class="d-inline-block">Ticket #627 Closed</div>
+                              <small class="float-right text-muted">8:02am</small>
+                           </div>
+                        </div>
+                        <div class="timeline-list timeline-info">
+                           <div class="timeline-info">
+                              <div class="d-inline-block">Cache cleared</div>
+                              <small class="float-right text-muted">6:00am</small>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="dropdown-menu-footer">
+                        <a href="#" title="">See All Notifications</a>
+                     </div>
+                  </div>
+               </li>
+               <li class="dropdown">
+                  <a class="login-user" data-toggle="dropdown" href="#" title=""> <img src="images/img1.jpg" alt="">
+                  </a>
+                  <div class="dropdown-menu  dropdown-menu-right">
+                     <a class="dropdown-item" href="#">
+                        <ion-icon ios="ios-contact" md="md-contact"></ion-icon>
+                        <i class="fas fa-user"></i> Profile
+                     </a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">
+                        <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                        <i class="fas fa-cog"></i> Project Setting
+                     </a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">
+                        <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                        <i class="fas fa-database"></i> Billing and Membership
+                     </a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">
+                        <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                        <i class="fab fa-buffer"></i> Feedback or Suggest a feature
+                     </a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">
+                        <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                        <i class="fas fa-user-cog"></i> User access management
+                     </a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">
+                        <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                        <i class="far fa-question-circle"></i> Help Center
+                     </a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">
+                        <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                     </a>
+                  </div>
+               </li>
+               <li>
+                  <a class="more-opt-open" href="#" data-rel="tooltip" data-placement="bottom" title=""
+                     data-original-title="Demo Settings"><i class="icon dripicons-align-right"></i> </a>
+               </li>
+            </ul>
+         </div>
+         <!-- Header Right -->
+      </header>
+      <!-- Header -->
+      <!-- TABING HEADER -->
+      <div id="tabing-head">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="tab-head-title">
+                     <h1>CMIT Solutions of Tribeca Dashboard > KPI</h1>
+                  </div>
+               </div>
+               <div class="col-md-12 col-3 tabs">
+                  <ul class="head-menu">
+                     <li class="active b first____in indicatior__">
+                        <div onclick="first()" class="head-ic-bg icon-f first__ ">
+                           <style>
+                              li.active img.inactive {
+                                 display: none;
+                              }
+                           </style>
+                           <a href="home.html">
+                              <img src="./images/Artboard ΓÇô 1.svg" class="inactive" alt="icons1">
+                              <img src="./images/hover/Artboard ΓÇô 12.svg" class="active" alt="icons1">
+                           </a>
+                        </div>
+                        </a>
+                        <div class="head-title">
+                           <p>KPI</p>
+                        </div>
+                     </li>
+                     <li onclick="twoinde()" class="b two___inde">
+                        <div class="head-ic-bg inde__tow">
+
+                           <a href="SEO.html">
+                              <img src="./images/Artboard ΓÇô 3.svg" class="inactive" alt="icons1">
+                              <img src="./images/hover/Artboard ΓÇô 18.svg" class="active" alt="icons1">
+                        </div>
+                        </a>
+                        <div class="head-title">
+                           <p>SEO</p>
+                        </div>
+
+                     </li>
+                     <li onclick="threeinde()" class="b third">
+                        <div class="head-ic-bg three">
+                           <a href="SEM.html">
+                              <img src="./images/Artboard ΓÇô 5.svg" class="inactive" alt="icons1">
+                              <img src="./images/hover/Artboard ΓÇô 16.svg" class="active" alt="icons1">
+                           </a>
+                        </div>
+                        <div class="head-title">
+                           <p>SEM</p>
+                        </div>
+                     </li>
+                     <li onclick="forthinde()" class="b forth">
+                        <div class="head-ic-bg">
+                           <a href="social.html">
+                              <img src="./images/Artboard ΓÇô 4.svg" class="inactive" alt="icons1">
+                              <img src="./images/hover/Artboard ΓÇô 17.svg" class="active" alt="icons1">
+                           </a>
+                        </div>
+                        <div class="head-title">
+                           <p>Social</p>
+                        </div>
+                     </li>
+                     <li onclick="fifthinde()" class="b fifth">
+                        <div class="head-ic-bg">
+
+                           <a href="main.html">
+                              <img src="./images/Artboard ΓÇô 2.svg" class="inactive" alt="icons1">
+                              <img src="./images/hover/Artboard ΓÇô 13.svg" class="active" alt="icons1"></svg>
+                           </a>
+                        </div>
+                        <div class="head-title">
+                           <p>Mail</p>
+                        </div>
+                     </li>
+                     <li onclick="sixthinde()" class="b sixth">
+                        <div class="head-ic-bg">
+                           <a href="web.html">
+                              <img src="./images/Artboard ΓÇô 9.svg" class="inactive" alt="icons1">
+                              <img src="./images/hover/Artboard ΓÇô 10.svg" class="active" alt="icons1">
+                           </a>
+                        </div>
+                        <div class="head-title">
+                           <p>Web</p>
+                        </div>
+                     </li>
+                     <li onclick="seventhinde()" class="b seventh">
+                        <div class="head-ic-bg">
+                           <a href="#">
+                              <img src="./images/Artboard ΓÇô 6.svg" class="inactive last____" alt="icons1">
+                              <img src="./images/hover/Artboard ΓÇô 15.svg" class="active last____" alt="icons1">
+                              </svg>
+                           </a>
+                        </div>
+                        <div class="head-title">
+                           <p>More</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="theme-content">
+         <aside class="console-sidemenu active" id="sidemenu">
+            <nav>
+               <div class="user logged-in">
+                  <a class="login-user" href="#" title=""><img src="images/img1.jpg" alt=""></a>
+                  <div class="user-detail">
+                     <strong>Joyce Cabardo</strong>
+                     <i>support@joyce.com</i>
+                  </div>
+               </div>
+               <ul class="console-menu">
+                  <li class="menu-item-has-children">
+                     <a href="#" title=""> <img src="images/icons/location.png"> &nbsp;&nbsp; <span>Visitors
+                           Location</span></a>
+                  </li>
+                  <li class="menu-item-has-children">
+                     <a href="#" title=""> <img src="images/icons/teamwork.png"> <span>Digital Team</span></a>
+                  </li>
+                  <li class="menu-item-has-children">
+                     <a href="#" title=""> <img src="images/icons/weekly.png"> <span>Email</span></a>
+                  </li>
+               </ul>
+               <div class="log">
+                  <a href=""><i class="fa fa-power-off" aria-hidden="true"></i> Logout</a>
+               </div>
+            </nav>
+         </aside>
+         <!-- Console Sidemenu -->
+         <div class="content-area">
+            <div id="toparea" class="style1">
+               <div class="console-dashboard-title">
+                  <div>
+                     <h1>Hi <strong>Billah</strong>! Welcome</h1>
+                  </div>
+                  <div class="dashboard-title-more">
+                     <div class="dash-info-block">
+                        <div onclick="zindex()" data-toggle="dropdown"
+                           class="dash-info align-items-center d-flex justify-content-between">
+                           <strong>Custome</strong><i class="fas fa-caret-down"></i>
+                        </div>
+                        <div class="dropdown-menu custome__dorpdown dropdown-menu-right">
+
+                           <a onclick="zindex()" class="dropdown-item" href="#">
+                              <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                              Today
+                           </a>
+                           <div class="dropdown-divider"></div>
+                           <a onclick="zindex()" class="dropdown-item" href="#">
+                              <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                              Yesterday
+                           </a>
+                           <div class="dropdown-divider"></div>
+                           <a onclick="zindex()" class="dropdown-item" href="#">
+                              <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                              Last 7 Days
+                           </a>
+                           <div class="dropdown-divider"></div>
+                           <a onclick="zindex()" class="dropdown-item" href="#">
+                              <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                              Last 30 Days
+                           </a>
+
+                        </div>
+                        <div class="dash-info"><strong>Start Date</strong><input type="date" name=""></div>
+                        <div class="dash-info"><strong>End Date</strong> <input type="date" name=""></div>
+                     </div>
+
+                     <div class="export-btn">
+                        <a onclick="toggle()" class="theme-btn" href="#" title=""><i class="icon dripicons-export"></i>
+                           Export</a>
+
+                        <div class="Wraper___popup1">
+                           <div class="box____1">
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <h2>Export Dashboard</h2> <i onclick="toggle()" class="fas fa-times"></i>
+                              </div>
+                              <div class="export___dasbord__details">
+
+                                 <p>Allaws you to Download or schedule automatic email report of your dota in PNG, JPEG,
+                                    SVG and CSV formates</p>
+                              </div>
+
+                              <div class="d-flex py-3 export__as1 justify-content-between align-itmes-center">
+
+                                 <strong class="export__as">Export as :</strong>
+                                 <div data-toggle="dropdown"
+                                    class="d-flex justify-content-between select__div align-itmes-center">
+                                    <strong class="SElect___head">Select Optins</strong> <i
+                                       class="fas fa-chevron-down"></i>
+
+
+                                    <div class="dropdown-menu pDf___ dropdown-menu-right">
+
+                                       <a class="dropdown-item PDF" href="#">
+                                          <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                                          PDF
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF" href="#">
+                                          <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                                          JPEG
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          SVG
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          CSV
+                                       </a>
+
+                                    </div>
+                                 </div>
+
+                              </div>
+                              <div class="text-center mt-5 mb-2">
+                                 <button class="save_____popup1">SAVE</button> &nbsp;&nbsp;&nbsp;&nbsp;
+                                 <button class="cancel_____popup1">CANCEL</button>
+                              </div>
+                           </div>
+                        </div>
+
+
+                        <a onclick="toggle2()" class="theme-btn btn-danger" href="#" title=""><i
+                              class="icon dripicons-export"></i> Export</a>
+
+                        <div class="Wraper__popup2">
+                           <div class="box___2">
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <h2>Add Widgets to KPI dash board</h2><i onclick="toggle2()" class="fas fa-times"></i>
+                              </div>
+                              <div class="d-flex pt-3 pb-3 justify-content-between align-itmes-center">
+
+                                 <strong class="export__as2">Select Data Source :</strong>
+                                 <div data-toggle="dropdown"
+                                    class="d-flex justify-content-between select__div2 align-itmes-center">
+                                    <strong class="SElect___head2">Google Analytics(CMIT sol.)</strong> <i
+                                       class="fas fa-chevron-down"></i>
+
+
+                                    <div class="dropdown-menu pDf___2 dropdown-menu-right">
+
+                                       <a class="dropdown-item PDF2" href="#">
+                                          <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                                          A
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF2" href="#">
+                                          <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                                          B
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF2" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          C
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF2" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          D
+                                       </a>
+
+                                    </div>
+                                 </div>
+                              </div>
+
+
+
+                              <div class="d-flex pb-3 justify-content-between align-itmes-center">
+                                 <strong class="export__as2">Widget destination :</strong>
+                                 <div data-toggle="dropdown"
+                                    class="d-flex justify-content-between select__div2 align-itmes-center">
+                                    <strong class="SElect___head3">KPI Dashboard main</strong> <i
+                                       class="fas fa-chevron-down"></i>
+
+
+                                    <div class="dropdown-menu pDf___2 dropdown-menu-right">
+
+                                       <a class="dropdown-item PDF3" href="#">
+                                          <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                                          A
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF3" href="#">
+                                          <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                                          B
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF3" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          C
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF3" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          D
+                                       </a>
+
+                                    </div>
+                                 </div>
+                              </div>
+
+
+                              <div class="d-flex pb-3 justify-content-between align-itmes-center">
+                                 <strong class="export__as2">Widget Title :</strong>
+                                 <div data-toggle="dropdown"
+                                    class="d-flex justify-content-between select__div2 align-itmes-center">
+                                    <strong class="SElect___head4">Title here</strong> <i
+                                       class="fas fa-chevron-down"></i>
+
+
+                                    <div class="dropdown-menu pDf___2 dropdown-menu-right">
+
+                                       <a class="dropdown-item PDF4" href="#">
+                                          <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                                          A
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF4" href="#">
+                                          <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                                          B
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF4" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          C
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF4" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          D
+                                       </a>
+
+                                    </div>
+                                 </div>
+                              </div>
+
+
+                              <div class="d-flex pb-3 justify-content-between align-itmes-center">
+                                 <strong class="export__as2">Chart Type :</strong>
+                                 <div data-toggle="dropdown"
+                                    class="d-flex justify-content-between select__div2 align-itmes-center">
+                                    <strong class="SElect___head5">Select</strong> <i class="fas fa-chevron-down"></i>
+
+
+                                    <div class="dropdown-menu pDf___2 dropdown-menu-right">
+
+                                       <a class="dropdown-item PDF5" href="#">
+                                          <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                                          A
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF5" href="#">
+                                          <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                                          B
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF5" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          C
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF5" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          D
+                                       </a>
+
+                                    </div>
+                                 </div>
+                              </div>
+
+
+                              <div class="d-flex pb-3 justify-content-between align-itmes-center">
+                                 <strong class="export__as2">Metric :</strong>
+                                 <div data-toggle="dropdown"
+                                    class="d-flex justify-content-between select__div2 align-itmes-center">
+                                    <strong class="SElect___head6">Select</strong> <i class="fas fa-chevron-down"></i>
+
+
+                                    <div class="dropdown-menu pDf___2 dropdown-menu-right">
+
+                                       <a class="dropdown-item PDF6" href="#">
+                                          <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                                          A
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF6" href="#">
+                                          <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                                          B
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF6" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          C
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF6" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          D
+                                       </a>
+
+                                    </div>
+                                 </div>
+                              </div>
+
+
+                              <div class="d-flex pb-3 justify-content-between align-itmes-center">
+                                 <strong class="export__as2">Segment :</strong>
+                                 <div data-toggle="dropdown"
+                                    class="d-flex justify-content-between select__div2 align-itmes-center">
+                                    <strong class="SElect___head7">Select</strong> <i class="fas fa-chevron-down"></i>
+
+
+                                    <div class="dropdown-menu pDf___2 dropdown-menu-right">
+
+                                       <a class="dropdown-item PDF7" href="#">
+                                          <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                                          A
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF7" href="#">
+                                          <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                                          B
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF7" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          C
+                                       </a>
+                                       <div class="dropdown-divider"></div>
+                                       <a class="dropdown-item PDF7" href="#">
+                                          <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                          D
+                                       </a>
+
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="text-center mt-3 mb-2">
+                                 <button class="save_____popup1">SAVE</button> &nbsp;&nbsp;&nbsp;&nbsp;
+                                 <button class="cancel_____popup1">CANCEL</button>
+                              </div>
+
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="grid-stack middle__body  gs-area">
+               <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="3" data-gs-height="7"
+                  data-gs-min-height="7" data-gs-min-width="3">
+                  <div class="console-panel grid-stack-item-content console-no-header">
+                     <div class="console-panel-body align-center">
+                        <div class="console-stats">
+                           <h5>TOTAL INCOME</h5>
+                           <span class="sparklines" data-sparkType="bar" data-sparkBarColor="#6794dc"
+                              data-sparkBarWidth="5" data-sparkHeight="40"> 5,8,9,3,6,8,9,3,1,6,8,9,5,6 </span>
+                           <div class="stats-num">13,956 </div>
+                           <i>18.2% higher vs previous month</i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Console Panel -->
+               </div>
+               <div class="grid-stack-item" data-gs-x="3" data-gs-y="0" data-gs-width="3" data-gs-height="7"
+                  data-gs-min-height="7" data-gs-min-width="3">
+                  <div class="console-panel grid-stack-item-content  console-no-header">
+                     <div class="console-panel-body-noscroll">
+                        <div class="console-stats">
+                           <h5>WEEKLY STATUS</h5>
+                           <div class="stats-num">13,956 </div>
+                           <i>18.2% higher vs previous month</i>
+                        </div>
+                        <div class="cover-bottom">
+                           <canvas id="linechart1" width="100" height="100"></canvas>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Console Panel -->
+               </div>
+
+               <div class="grid-stack-item" data-gs-x="6" data-gs-y="7" data-gs-width="6" data-gs-height="0"
+                  data-gs-min-height="14" data-gs-min-width="4">
+                  <div class="console-panel grid-stack-item-content">
+                     <div class="console-panel-header">
+                        <div class="cph-left">
+                           <h5>Monthly Budget</h5>
+                           <span>This report is based on 100% of sessions.</span>
+                        </div>
+                        <div class="cph-right">
+                           <ul class="top-header-btns">
+                              <li><a class="switch-full" href="#" title="Expand Panel To Full Screen"
+                                    data-rel="tooltip"> <i class="icon dripicons-expand-2"></i></a></li>
+                              <li><a class="collapse-panel" href="#" title="Collapse/Uncollapse Panel"
+                                    data-rel="tooltip"> <i class="icon dripicons-chevron-up"></i></a></li>
+                              <li class="dropdown">
+                                 <a href="#" data-toggle="dropdown" title="Panel Options" data-rel="tooltip"> <i
+                                       class="icon dripicons-dots-3"></i></a>
+                                 <div class="dropdown-menu  dropdown-menu-right theme-media">
+                                    <div class="dropdown-menu-header">
+                                       <div class="dmh-inner">
+                                          <h4>Panel Options</h4>
+                                       </div>
+                                    </div>
+                                    <a class="dropdown-item cp" href="#" title=""> <span class="color-fill-icon"
+                                          style="background-color:#fff;"></span> Header Background Color</a>
+                                    <a class="dropdown-item header-fontcolor" href="#" title=""> <span
+                                          class="color-fill-icon" style="background-color:#333"></span> Header Font
+                                       Color Dark/Light</a>
+                                 </div>
+                              </li>
+                              <li><a class="removeWidget" href="#" title="Remove Panel" data-rel="tooltip"> <i
+                                       class="icon dripicons-cross"></i> </a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <!-- Panel Header -->
+                     <div class="console-panel-body no-padding">
+                        <div class="filter-bar">
+                           <div class="console-results mr-auto">
+                              <div>
+                                 <label class="mg-b-0">Registered Users</label>
+                                 <h2>32,169</h2>
+                              </div>
+                              <div>
+                                 <label class="mg-b-0">Total Page Views</label>
+                                 <h2>603,120</h2>
+                              </div>
+                              <div>
+                                 <label class="mg-b-0">Bounce Rate</label>
+                                 <h2>25%</h2>
+                              </div>
+                           </div>
+                           <ul class="nav nav-pills nav-pills-info justify-content-end">
+                              <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#pills-1">Week</a>
+                              </li>
+                              <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#pills-2">Month</a>
+                              </li>
+                              <li class="nav-item"> <a class="nav-link active show" data-toggle="pill"
+                                    href="#pills-3">Year</a> </li>
+                           </ul>
+                        </div>
+                        <div class="chart-container">
+                           <canvas id="barchart1" width="100" height="450"></canvas>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Console Panel -->
+               </div>
+
+               <div class="grid-stack-item" data-gs-x="0" data-gs-y="18" data-gs-width="3" data-gs-height="18"
+                  data-gs-min-height="7" data-gs-min-width="2">
+                  <div class="console-panel grid-stack-item-content">
+                     <div class="console-panel-header">
+                        <div class="cph-left">
+                           <h5>Tasks Progress</h5>
+                           <span>Resource On Site</span>
+                        </div>
+                        <div class="cph-right">
+                           <ul class="top-header-btns">
+                              <li class="dropdown">
+                                 <a href="#" data-toggle="dropdown" title="Panel Options" data-rel="tooltip"> <i
+                                       class="icon dripicons-dots-3"></i></a>
+                                 <div class="dropdown-menu  dropdown-menu-right theme-media">
+                                    <div class="dropdown-menu-header">
+                                       <div class="dmh-inner">
+                                          <h4>Panel Options</h4>
+                                       </div>
+                                    </div>
+                                    <a class="dropdown-item cp" href="#" title=""> <span class="color-fill-icon"
+                                          style="background-color:#fff;"></span> Header Background Color</a>
+                                    <a class="dropdown-item header-fontcolor" href="#" title=""> <span
+                                          class="color-fill-icon" style="background-color:#333"></span> Header Font
+                                       Color Dark/Light</a>
+                                 </div>
+                              </li>
+                              <li><a class="removeWidget" href="#" title="Remove Panel" data-rel="tooltip"> <i
+                                       class="icon dripicons-cross"></i> </a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <!-- Panel Header -->
+                     <div class="console-panel-body">
+                        <div class="progress-item">
+                           <div> <span>Email</span> <span>987 <span>(20%)</span></span> </div>
+                           <div class="progress">
+                              <div class="progress-bar bg-primary" style="width:20%"></div>
+                           </div>
+                           <!-- progress -->
+                        </div>
+                        <div class="progress-item">
+                           <div><span>Organic Search</span><span>1,320 <span>(25%)</span></span></div>
+                           <div class="progress">
+                              <div class="progress-bar bg-danger" style="width:25%"></div>
+                           </div>
+                           <!-- progress -->
+                        </div>
+                        <div class="progress-item">
+                           <div> <span>Referral</span> <span>2,010 <span>(30%)</span></span> </div>
+                           <div class="progress">
+                              <div class="progress-bar bg-warning " style="width:30%"></div>
+                           </div>
+                           <!-- progress -->
+                        </div>
+                        <div class="progress-item">
+                           <div> <span>Social</span> <span>654 <span>(15%)</span></span> </div>
+                           <div class="progress">
+                              <div class="progress-bar bg-info " style="width:15%"></div>
+                           </div>
+                           <!-- progress -->
+                        </div>
+                        <div class="progress-item">
+                           <div><span>Organic Search</span><span>1,320 <span>(25%)</span></span></div>
+                           <div class="progress">
+                              <div class="progress-bar bg-success" style="width:25%"></div>
+                           </div>
+                           <!-- progress -->
+                        </div>
+                        <div class="progress-item">
+                           <div><span>Other</span><span>400 <span>(10%)</span></span></div>
+                           <div class="progress">
+                              <div class="progress-bar bg-secondary " style="width:10%"></div>
+                           </div>
+                           <!-- progress -->
+                        </div>
+                        <div class="progress-item">
+                           <div> <span>Email</span> <span>987 <span>(20%)</span></span> </div>
+                           <div class="progress">
+                              <div class="progress-bar bg-dark" style="width:20%"></div>
+                           </div>
+                           <!-- progress -->
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Console Panel -->
+               </div>
+               <div class="grid-stack-item" data-gs-x="3" data-gs-y="18" data-gs-width="3" data-gs-height="18"
+                  data-gs-min-height="10" data-gs-min-width="3">
+                  <div class="console-panel grid-stack-item-content">
+                     <div class="console-panel-header">
+                        <div class="cph-left">
+                           <h5>Website Audience Metrics</h5>
+                           <span>Based on 100% of sessions.</span>
+                        </div>
+                        <div class="cph-right">
+                           <ul class="top-header-btns">
+                              <li><a class="collapse-panel" href="#" title="Collapse/Uncollapse Panel"
+                                    data-rel="tooltip"> <i class="icon dripicons-chevron-up"></i></a></li>
+                              <li class="dropdown">
+                                 <a href="#" data-toggle="dropdown" title="Panel Options" data-rel="tooltip"> <i
+                                       class="icon dripicons-dots-3"></i></a>
+                                 <div class="dropdown-menu  dropdown-menu-right theme-media">
+                                    <div class="dropdown-menu-header">
+                                       <div class="dmh-inner">
+                                          <h4>Panel Options</h4>
+                                       </div>
+                                    </div>
+                                    <a class="dropdown-item cp" href="#" title=""> <span class="color-fill-icon"
+                                          style="background-color:#fff;"></span> Header Background Color</a>
+                                    <a class="dropdown-item header-fontcolor" href="#" title=""> <span
+                                          class="color-fill-icon" style="background-color:#333"></span> Header Font
+                                       Color Dark/Light</a>
+                                 </div>
+                              </li>
+                              <li><a class="removeWidget" href="#" title="Remove Panel" data-rel="tooltip"> <i
+                                       class="icon dripicons-cross"></i> </a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <!-- Panel Header -->
+                     <div class="console-panel-body ">
+                        <div class="chart-container">
+                           <canvas id="donutchart1" width="100" height="95"></canvas>
+                        </div>
+                        <div class="console-stats">
+                           <h5>TOTAL INCOME</h5>
+                           <i>18.2% higher vs previous month</i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Console Panel -->
+               </div>
+
+
+               <div class="grid-stack-item" data-gs-x="6" data-gs-y="15" data-gs-width="6" data-gs-height="11"
+                  data-gs-min-height="11" data-gs-min-width="4">
+                  <div class="console-panel grid-stack-item-content">
+                     <div class="console-panel-header">
+                        <div class="cph-left">
+                           <h5>Support Tickets</h5>
+                           <span>This report is based on 100% of sessions.</span>
+                        </div>
+                        <div class="cph-right">
+                           <ul class="top-header-btns">
+                              <li><a class="switch-full" href="#" title="Expand Panel To Full Screen"
+                                    data-rel="tooltip"> <i class="icon dripicons-expand-2"></i></a></li>
+                              <li><a class="collapse-panel" href="#" title="Collapse/Uncollapse Panel"
+                                    data-rel="tooltip"> <i class="icon dripicons-chevron-up"></i></a></li>
+                              <li class="dropdown">
+                                 <a href="#" data-toggle="dropdown" title="Panel Options" data-rel="tooltip"> <i
+                                       class="icon dripicons-dots-3"></i></a>
+                                 <div class="dropdown-menu  dropdown-menu-right theme-media">
+                                    <div class="dropdown-menu-header">
+                                       <div class="dmh-inner">
+                                          <h4>Panel Options</h4>
+                                       </div>
+                                    </div>
+                                    <a class="dropdown-item cp" href="#" title=""> <span class="color-fill-icon"
+                                          style="background-color:#fff;"></span> Header Background Color</a>
+                                    <a class="dropdown-item header-fontcolor" href="#" title=""> <span
+                                          class="color-fill-icon" style="background-color:#333"></span> Header Font
+                                       Color Dark/Light</a>
+                                 </div>
+                              </li>
+                              <li><a class="removeWidget" href="#" title="Remove Panel" data-rel="tooltip"> <i
+                                       class="icon dripicons-cross"></i> </a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <!-- Panel Header -->
+                     <div class="console-panel-body no-padding scrollbar">
+                        <div class="theme-media style2">
+                           <div class="media unread">
+                              <img class="mr-3 circle-img" src="images/img1.jpg" alt=" ">
+                              <div class="media-body">
+                                 <span>Mar 15 12:32pm</span>
+                                 <p>Congratulate <strong>Socrates Itumay</strong> for work anniversaries</p>
+                                 <div class="action-icons">
+                                    <a href="javascript:void(0)"><i
+                                          class="icon dripicons-checkmark text-success"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-cross  text-danger"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-heart text-info"></i></a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="media unread">
+                              <img class="mr-3 circle-img" src="images/img1.jpg" alt=" ">
+                              <div class="media-body">
+                                 <span>Mar 15 12:32pm</span>
+                                 <p>Congratulate <strong>Socrates Itumay</strong> for work anniversaries</p>
+                                 <div class="action-icons">
+                                    <a href="javascript:void(0)"><i
+                                          class="icon dripicons-checkmark text-success"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-cross  text-danger"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-heart text-info"></i></a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="media unread">
+                              <img class="mr-3 circle-img" src="images/img1.jpg" alt=" ">
+                              <div class="media-body">
+                                 <span>Mar 13 04:16am</span>
+                                 <p><strong>Joyce Chua</strong> just created a new blog post</p>
+                                 <div class="action-icons">
+                                    <a href="javascript:void(0)"><i
+                                          class="icon dripicons-checkmark text-success"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-cross  text-danger"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-heart text-info"></i></a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="media">
+                              <img class="mr-3 circle-img" src="images/img1.jpg" alt=" ">
+                              <div class="media-body">
+                                 <span>Mar 13 02:56am</span>
+                                 <p><strong>Althea Cabardo</strong> just created a new blog post</p>
+                                 <div class="action-icons">
+                                    <a href="javascript:void(0)"><i
+                                          class="icon dripicons-checkmark text-success"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-cross  text-danger"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-heart text-info"></i></a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="media">
+                              <img class="mr-3 circle-img" src="images/img1.jpg" alt=" ">
+                              <div class="media-body">
+                                 <span>Mar 12 10:40pm</span>
+                                 <p><strong>Adrian Monino</strong> added new comment on your photo</p>
+                                 <div class="action-icons">
+                                    <a href="javascript:void(0)"><i
+                                          class="icon dripicons-checkmark text-success"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-cross  text-danger"></i></a>
+                                    <a href="javascript:void(0)"><i class="icon dripicons-heart text-info"></i></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Console Panel -->
+               </div>
+
+
+
+            </div>
+         </div>
+      </div>
+      <!-- Footer -->
+      <section class="foot-main">
+         <div class="container">
+            <footer class="page-footer font-small blue pt-4">
+               <!-- Footer Links -->
+               <div class="container-fluid text-center text-md-left">
+                  <!-- Grid row -->
+                  <div class="row">
+                     <!-- Grid column -->
+                     <div class="col-md-5 mt-md-0 mt-3 foot-about">
+                        <!-- Content -->
+                        <img src="images/cmit2.png">
+                        <p>CMIT Solutions provices responsive, professional IT support
+                           and technology service for you business, performing
+                           proactive maintenance, monitoring, and backups - everything necessary to ensure an efficient,
+                           safe,and
+                           reliable IT environmenr.
+                        </p>
+
+                     </div>
+                     <div class="col-md-2"></div>
+                     <!-- Grid column -->
+                     <hr class="clearfix w-100 d-md-none pb-3">
+                     <!-- Grid column -->
+                     <div class="col-md-2 mb-md-0 mb-3">
+                        <!-- Links -->
+                        <h5>Resouraces</h5>
+                        <ul class="list-unstyled">
+                           <li>
+                              <a href="#!">QuickTips Blog</a>
+                           </li>
+                           <li>
+                              <a href="#!">In the News</a>
+                           </li>
+                           <li>
+                              <a href="#!">Success</a>
+                           </li>
+                           <li>
+                              <a href="#!">Stories</a>
+                           </li>
+                        </ul>
+
+                     </div>
+                     <!-- Grid column -->
+
+                     <!-- Grid column -->
+                     <div class="col-md-2 mb-md-0 mb-3">
+                        <!-- Links -->
+                        <h5>Company</h5>
+                        <ul class="list-unstyled">
+                           <li>
+                              <a href="#!">About</a>
+                           </li>
+                           <li>
+                              <a href="#!">Locations</a>
+                           </li>
+                           <li>
+                              <a href="#!">Contact Us</a>
+                           </li>
+                           <li>
+                              <a href="#!">Partners</a>
+                           </li>
+                           <li>
+                              <a href="#!">Industries</a>
+                           </li>
+                           <li>
+                              <a href="#!">Clients</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- Grid column -->
+                  </div>
+                  <!-- Grid row -->
+               </div>
+               <!-- Footer Links -->
+               <!-- Footer Bottom -->
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="footer-social">
+                           <ul>
+                              <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="footer-copyright">
+                           <p>© 2022 <a href="#">CMIT Solutions LLC</a> All Rights <a href="#">reserved</a> | <a
+                                 href="#">Corporate</a> | <a href="#">Privacy</a> | <a href="#">Franchise info</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+         </div>
+      </section>
+      <!-- Button trigger modal -->
+      <!-- <button >
+         Launch demo modal
+      </button> -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <div class="main__box">
+                     <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">ADD NEW PROJECT</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <p id="details_p">Provide details abour your company</p>
+                     <form action="">
+                        <label for="">Company Name</label>
+                        <span>
+                           <input id="Company" type="text" placeholder="Enter your Company Name" />
+                        </span>
+
+                        <label for="">Website Link</label>
+                        <span>
+                           <input id="Website" type="text" placeholder="Enter your Website Link" />
+                        </span>
+
+                        <label for="">Interesed in</label>
+                        <span class="select___registration p-0">
+                           <div class="dropdown">
+                              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                 data-bs-toggle="dropdown" aria-expanded="false">
+                                 Dropdown button
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                 <li><a class="dropdown-item" href="#">Dropdown Low</a></li>
+                                 <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                                 <li><a class="dropdown-item" href="#">Web design</a></li>
+                                 <li><a class="dropdown-item" href="#">SEO</a></li>
+                                 <li><a class="dropdown-item" href="#">Social</a></li>
+                                 <li><a class="dropdown-item" href="#">Custom</a></li>
+                              </ul>
+                           </div>
+                        </span>
+
+                        <label for="">Provid access to google analytics</label>
+
+                        <div class="google___link d-flex justify-content-start align-items-center">
+                           <a href="#">
+                              <img style="border-radius: 20px;" width="55" src="./Screenshot_4.png" alt=""
+                                 class="img-fluid" />
+                           </a>
+                           <span class="google_analytics_text">
+                              <h4>
+                                 Google
+                              </h4>
+                              <h6>Analytics</h6>
+                           </span>
+                        </div>
+                        <p class="some__p___text">We can show reports from your googl analytics data</p>
+                        <div class="divider">
+                           <hr>
+                           <h6 class="text-center">or</h6>
+                        </div>
+
+                        <div class="check__and___allow">
+                           <input type="checkbox" /> <span style="margin-left: 10px;">Please check if you do not have
+                              Google Analytics Account and you want use to setup Account</span>
+                        </div>
+                        <input type="submit" id="submit__btn" class="submit__btn mb-2" value="ADD NEW PROJECT" />
+                     </form>
+                  </div>
+
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   </div>
+   <script src="js/jquerymain_jquerytouch_jquerycookies.js"></script>
+   <script src="js/bootstrap_popper.min.js"></script>
+   <script src="js/jquery_ui.min.js"></script>
+   <script src="js/grid_stack_pack.min.js"></script>
+   <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+   <script src="js/plugins/chartjs/Chart.bundle.min.js"></script>
+   <script src="js/plugins/colorpicker/bootstrap-colorpicker-plus.min.js"></script>
+   <script src="js/plugins/toaster/jquery.toaster.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/page-level/chartjs/linechart1.js"></script>
+   <script src="js/page-level/chartjs/donutchart1.js"></script>
+   <script src="js/page-level/chartjs/barchart1.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
